@@ -1,0 +1,249 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://koenromers.com/cocoen/after.jpg",
+
+					"link_video":"https://atreus.uoledtech.com.br/estacio/video/193764",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"20 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://koenromers.com/cocoen/before.jpg",
+
+					"link_video":"https://atreus.uoledtech.com.br/estacio/video/194765",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"35 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"http://s2.glbimg.com/PWzElwICb5ItVqUPSQmj6bxMkSY=/620x455/e.glbimg.com/og/ed/f/original/2014/07/29/caverna-melissani-kefalonia-grecia.jpg",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/193763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"25 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "3",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"http://s2.glbimg.com/XRGmhbkavSBOXErxcpM0gIJZIpc=/620x455/e.glbimg.com/og/ed/f/original/2014/07/29/flores-de-cerejeira-japao.jpg",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/173763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"40 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id":"4",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://koenromers.com/cocoen/after.jpg",
+
+					"link_video":"https://atreus.uoledtech.com.br/estacio/video/193764",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"20 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "5",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://koenromers.com/cocoen/before.jpg",
+
+					"link_video":"https://atreus.uoledtech.com.br/estacio/video/194765",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"35 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "6",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"http://s2.glbimg.com/PWzElwICb5ItVqUPSQmj6bxMkSY=/620x455/e.glbimg.com/og/ed/f/original/2014/07/29/caverna-melissani-kefalonia-grecia.jpg",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/193763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"25 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "7",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"http://s2.glbimg.com/XRGmhbkavSBOXErxcpM0gIJZIpc=/620x455/e.glbimg.com/og/ed/f/original/2014/07/29/flores-de-cerejeira-japao.jpg",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/173763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"40 min.",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://koenromers.com/cocoen/after.jpg",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/193763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"20 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://koenromers.com/cocoen/before.jpg",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/193763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"20 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Título H2 lorem ipsum dolor",
+
+					"subtitle_video":"Prof. Lorem ipsum dolor.",
+
+					"thumb_video":"https://images.unsplash.com/photo-1490806843957-31f4c9a91c65",
+
+					"link_video":"http://atreus.uoledtech.com.br/estacio/video/193763",
+
+					"paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet nisl felis, sed finibus orci aliquam ut.",
+
+					"time":"20 min.",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+				
+
+		}
+
+	]
+
+}

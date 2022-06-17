@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='pt-br'>
+
+<head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' />
+
+    <!-- Glassbox-->
+    <script type='text/javascript' src='../glassbox/detector-dom.min_web_yduqs_temas.js'></script>
+    <!-- Glassbox-->
+
+    <!-- CDN JQuery -->
+    <script src="https://stensineme.blob.core.windows.net/designsystem/cdn/libraries/jquery.min.js"></script>
+    <!-- CDN JQuery -->
+
+    <!-- Inicio do Script Google Tag Manager HEAD (NÂO REMOVER) -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TB9FV25');
+    </script>
+    <!-- Fim do Script Google Tag Manager HEAD (NÂO REMOVER) -->
+
+    <!-- Links Externos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- Arquivos Locais -->
+    <script type='text/javascript' src='./js/menu.js'></script>
+    <script type='text/javascript' src='./js/questions.js'></script>
+    <script type='text/javascript' src='./js/config.js'></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Arquivos Locais -->
+    
+    <!-- Design System -->
+    <link rel="stylesheet" href="https://stensineme.blob.core.windows.net/designsystem/cdn/fonts/roboto/fontface.css" />
+    <link rel="stylesheet"
+        href="https://stensineme.blob.core.windows.net/designsystem/cdn/webcomponents/web-components/web-components.css" />
+    <link rel="stylesheet" href="https://stensineme.blob.core.windows.net/designsystem/cdn/themes/default.css" />
+    <!-- Design System -->
+
+    <title>Nome do Tema</title>
+</head>
+
+<body style="opacity:0;transition: opacity 500ms ease-in-out;transition-delay: 500ms;">
+
+    <header>
+        <!-- Menu do Tema -->
+        <yduqs-menu id="menu"></yduqs-menu>
+        <!-- Fim Menu do Tema -->
+
+        <!-- Capa do Tema -->
+        <yduqs-cover         
+            background_img="img/imagem.jpg"
+            background_img_title="Foto: Shutterstock.com"
+            title_cover="Nome do Tema" 
+            teacher="Nome do Professor"
+            teacher_avatar= "img/avatar.png" 
+            teacher_link="https://pt.wikipedia.org/"
+            contributors="Nome do Professor Colaborador, Nome do Professor Colaborador"
+            background_text="true"
+            cover_preparation="true" >
+            
+            <div slot="yduqs-cover-definition">
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.</p>
+            </div>
+
+            <div slot="yduqs-cover-purpose">
+                <p class="c-paragraph u-text--medium">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
+            </div>
+            <div slot="yduqs-cover-preparation-text">
+                <p class="c-paragraph u-text--medium">Antes de iniciar a leitura deste conteúdo, consulte o Código Civil e a Lei Complementar nº 155/2016.</p>
+            </div>
+
+        </yduqs-cover>
+        <!-- Fim da Capa do Tema -->
+    </header>
+
+    <!-- Início main/conteúdo aula -->
+    <main id="conteudo">
+        <module id="apresentacao">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="c-heading u-title-small mb-3">Objetivos</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <yduqs-card-modulo id="card-modulo1" progress="0">
+                            <yduqs-card-modulo-header>
+                                <span class="c-info">Módulo 1</span>
+                                <h2 class="c-heading u-xlarge">
+                                    Título do módulo opcional
+                                </h2>
+                            </yduqs-card-modulo-header>
+                            <yduqs-card-modulo-body>
+                                <p class="c-paragraph u-text--medium">
+                                    Texto do módulo lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc a erat tellus. Nullam commodo, purus sit amet convallis elementum,
+                                    nisl erat pretium mauris, vel sodales est orci et massa.
+                                    Texto do módulo lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc a erat tellus. Nullam commodo, purus sit amet convallis elementum,
+                                    nisl erat pretium mauris, vel sodales est orci et massa.
+                                </p>
+                            </yduqs-card-modulo-body>
+                            <yduqs-card-modulo-footer>
+                                <button class="c-button c-button--ghost u-text--small"
+                                    onclick="location.href='#modulo1'">Acessar módulo</button>
+                            </yduqs-card-modulo-footer>
+                        </yduqs-card-modulo>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <yduqs-card-modulo id="card-modulo2" progress="0">
+                            <yduqs-card-modulo-header>
+                                <span class="c-info">Módulo 2</span>
+                                <h2 class="c-heading u-xlarge">
+                                    Título do módulo opcional
+                                </h2>
+                            </yduqs-card-modulo-header>
+                            <yduqs-card-modulo-body>
+                                <p class="c-paragraph u-text--medium">
+                                    Texto do módulo lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc a erat tellus. Nullam commodo, purus sit amet convallis elementum,
+                                    nisl erat pretium mauris, vel sodales est orci et massa.
+                                </p>
+                            </yduqs-card-modulo-body>
+                            <yduqs-card-modulo-footer>
+                                <button class="c-button c-button--primary u-text--small"
+                                    onclick="location.href='#modulo2'">Acessar módulo</button>
+                            </yduqs-card-modulo-footer>
+                        </yduqs-card-modulo>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <yduqs-card-modulo id="card-modulo3" progress="0">
+                            <yduqs-card-modulo-header>
+                                <span class="c-info">Módulo 3</span>
+                                <h2 class="c-heading u-xlarge">
+                                    Título do módulo opcional
+                                </h2>
+                            </yduqs-card-modulo-header>
+                            <yduqs-card-modulo-body>
+                                <p class="c-paragraph u-text--medium">
+                                    Texto do módulo lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc a erat tellus. Nullam commodo, purus sit amet convallis elementum,
+                                    nisl erat pretium mauris, vel sodales est orci et massa.
+                                    Texto do módulo lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc a erat tellus. Nullam commodo, purus sit amet convallis elementum,
+                                    nisl erat pretium mauris, vel sodales est orci et massa.
+                                </p>
+                            </yduqs-card-modulo-body>
+                            <yduqs-card-modulo-footer>
+                                <button class="c-button c-button--primary u-text--small"
+                                    onclick="location.href='#modulo3'">Acessar módulo</button>
+                            </yduqs-card-modulo-footer>
+                        </yduqs-card-modulo>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                    <yduqs-card-intro text="Introdução">
+                        <p class="c-paragraph u-text--medium">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida vehicula
+                            sollicitudin. Duis
+                            erat massa, fringilla vel elit a, semper venenatis massa. Praesent ut sem lacinia,
+                            iaculis urna vel,
+                            laoreet turpis. Suspendisse pulvinar bibendum augue, sagittis interdum nulla rutrum sed.
+                            Curabitur
+                            sed ullamcorper mi, sit amet rhoncus nibh. Nam id ipsum non est efficitur.
+                        </p>
+                        <p class="c-paragraph u-text--medium">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida vehicula
+                            sollicitudin. Duis
+                            erat massa, fringilla vel elit a, semper venenatis massa. Praesent ut sem lacinia,
+                            iaculis urna vel,
+                            laoreet turpis. Suspendisse pulvinar bibendum augue, sagittis interdum nulla rutrum sed.
+                            Curabitur
+                            sed ullamcorper mi, sit amet rhoncus nibh. Nam id ipsum non est efficitur.
+                        </p>
+                    </yduqs-card-intro>
+                    
+                </div>
+            </div>
+
+        </module>
+
+        <module id="modulo1" class="py-5">
+            <!-- Inicio da Capa do Modulo -->
+            <yduqs-module-cover number_module="1" title_module="Módulo 1"
+                objective="identificar o conceito de beleza no século XX." title_read_time="Tempo de leitura"
+                read_time="45 min." title_midia_time="Tempo de mídia" midia_time="22 min." img_cover="img/imagem.jpg" title="Foto: Shutterstock.com">
+            </yduqs-module-cover>
+            <!-- Fim da Capa do Modulo -->
+
+            <div class="container py-5">
+                <yduqs-title topic_title="Primeiro tópico"></yduqs-title>
+                <div class='row align-items-center justify-content-center'>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus. Fusce
+                            sit amet elementum
+                            sapien, eu mollis nibh. Vestibulum consectetur augue pulvinar libero fermentum, ac malesuada
+                            sapien mattis. Etiam
+                            congue
+                            euismod congue. Phasellus eget augue orci. Aliquam consectetur dapibus velit, eget mattis
+                            odio laoreet quis.</p>
+
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus. Fusce
+                            sit amet elementum
+                            sapien, eu mollis nibh. Vestibulum consectetur augue pulvinar libero fermentum, ac malesuada
+                            sapien mattis. Etiam
+                            congue
+                            euismod congue. Phasellus eget augue orci. Aliquam consectetur dapibus velit, eget mattis
+                            odio laoreet quis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video -->
+            <div class="container py-5">
+                <yduqs-title topic_title="Titulo do Vídeo" topic_icon="video_library"></yduqs-title>
+                <div class='row align-items-center justify-content-center'>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus</p>
+                    </div>
+                    <div class="col-12 col-md-10 mt-3">
+                        <yduqs-video-player src="https://atreus.uoledtech.com.br/estacio/video/193763"
+                            videoId="00000000" width="100%" covered="false">
+                        </yduqs-video-player>
+                    </div>
+                </div>
+            </div>
+            <!-- Video -->
+
+            <!-- Inicio do Questions -->
+            <yduqs-section class="py-5 bg-primary-30 mb-0">
+                <div class="container">
+                    <yduqs-card-horizontal card_image="img/imagem.jpg" card_icon="emoji_events"
+                        image_alt="Descrição da imagem" image_title="Foto: Shutterstock.com">
+                        <div slot="card-heading">
+                            Falta pouco para atingir seus objetivos.
+                        </div>
+                        <div slot="card-subheading">
+                            Vamos praticar alguns conceitos?
+                        </div>
+                    </yduqs-card-horizontal>
+
+                    <yduqs-questions question_id="1"></yduqs-questions>
+                </div>
+            </yduqs-section>
+            <!-- Fim do Questions -->
+
+            <yduqs-section>
+                <yduqs-module-rating cta="Avalie o módulo" icon="star" tamanho="large" dev="false"></yduqs-module-rating>
+            </yduqs-section>
+
+        </module>
+
+        <module id="modulo2" class="py-5">
+            <!-- Inicio da Capa do Modulo -->
+            <yduqs-module-cover number_module="2" title_module="Módulo 2"
+                objective="identificar o conceito de beleza no século XX." title_read_time="Tempo de leitura"
+                read_time="45 min." title_midia_time="Tempo de mídia" midia_time="22 min." img_cover="img/imagem.jpg" title="Foto: Shutterstock.com">
+            </yduqs-module-cover>
+            <!-- Fim da Capa do Modulo -->
+
+            <div class="container py-5">
+                <yduqs-title topic_title="Primeiro tópico"></yduqs-title>
+                <div class='row align-items-center justify-content-center'>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus.
+                            Fusce
+                            sit amet elementum
+                            sapien, eu mollis nibh. Vestibulum consectetur augue pulvinar libero fermentum, ac malesuada
+                            sapien mattis.
+                            Etiam
+                            congue
+                            euismod congue. Phasellus eget augue orci. Aliquam consectetur dapibus velit, eget mattis
+                            odio laoreet quis.
+                        </p>
+
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus.
+                            Fusce
+                            sit amet elementum
+                            sapien, eu mollis nibh. Vestibulum consectetur augue pulvinar libero fermentum, ac malesuada
+                            sapien mattis.
+                            Etiam
+                            congue
+                            euismod congue. Phasellus eget augue orci. Aliquam consectetur dapibus velit, eget mattis
+                            odio laoreet quis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video -->
+            <div class="container py-5">
+                <yduqs-title topic_title="Titulo do Vídeo" topic_icon="video_library"></yduqs-title>
+                <div class='row align-items-center justify-content-center'>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus</p>
+                    </div>
+                    <div class="col-12 col-md-10 mt-3">
+                        <yduqs-video-player src="https://atreus.uoledtech.com.br/estacio/video/193763"
+                            videoId="00000000" width="100%" covered="false">
+                        </yduqs-video-player>
+                    </div>
+                </div>
+            </div>
+            <!-- Video -->
+
+            <!-- Inicio do Questions -->
+            <yduqs-section class="py-5 bg-primary-30 mb-0">
+                <div class="container">
+                    <yduqs-card-horizontal card_image="img/imagem.jpg" card_icon="emoji_events"
+                        image_alt="Descrição da imagem" image_title="Foto: Shutterstock.com">
+                        <div slot="card-heading">
+                            Falta pouco para atingir seus objetivos.
+                        </div>
+                        <div slot="card-subheading">
+                            Vamos praticar alguns conceitos?
+                        </div>
+                    </yduqs-card-horizontal>
+
+                    <yduqs-questions question_id="2"></yduqs-questions>
+                </div>
+            </yduqs-section>
+            <!-- Fim do Questions -->
+
+            <yduqs-section>
+                <yduqs-module-rating cta="Avalie o módulo" icon="star" tamanho="large" dev="false"></yduqs-module-rating>
+            </yduqs-section>
+
+        </module>
+
+        <module id="modulo3" class="py-5">
+            <!-- Inicio da Capa do Modulo -->
+            <yduqs-module-cover number_module="3" title_module="Módulo 3"
+                objective="identificar o conceito de beleza no século XX." title_read_time="Tempo de leitura"
+                read_time="45 min." title_midia_time="Tempo de mídia" midia_time="22 min." img_cover="img/imagem.jpg" title="Foto: Shutterstock.com">
+            </yduqs-module-cover>
+            <!-- Fim da Capa do Modulo -->
+
+            <div class="container py-5">
+                <yduqs-title topic_title="Primeiro tópico"></yduqs-title>
+                <div class='row align-items-center justify-content-center'>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus.
+                            Fusce
+                            sit amet elementum
+                            sapien, eu mollis nibh. Vestibulum consectetur augue pulvinar libero fermentum, ac malesuada
+                            sapien mattis.
+                            Etiam
+                            congue
+                            euismod congue. Phasellus eget augue orci. Aliquam consectetur dapibus velit, eget mattis
+                            odio laoreet quis.</p>
+
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus.
+                            Fusce
+                            sit amet elementum
+                            sapien, eu mollis nibh. Vestibulum consectetur augue pulvinar libero fermentum, ac malesuada
+                            sapien mattis.
+                            Etiam
+                            congue
+                            euismod congue. Phasellus eget augue orci. Aliquam consectetur dapibus velit, eget mattis
+                            odio laoreet quis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video -->
+            <div class="container py-5">
+                <yduqs-title topic_title="Titulo do Vídeo" topic_icon="video_library"></yduqs-title>
+                <div class='row align-items-center justify-content-center'>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            tincidunt euismod rhoncus</p>
+                    </div>
+                    <div class="col-12 col-md-10 mt-3">
+                        <yduqs-video-player src="https://atreus.uoledtech.com.br/estacio/video/193763"
+                            videoId="00000000" width="100%" covered="false">
+                        </yduqs-video-player>
+                    </div>
+                </div>
+            </div>
+            <!-- Video -->
+
+            <!-- Inicio do Questions -->
+            <yduqs-section class="py-5 bg-primary-30 mb-0">
+                <div class="container">
+                    <yduqs-card-horizontal card_image="img/imagem.jpg" card_icon="emoji_events"
+                        image_alt="Descrição da imagem" image_title="Foto: Shutterstock.com">
+                        <div slot="card-heading">
+                            Falta pouco para atingir seus objetivos.
+                        </div>
+                        <div slot="card-subheading">
+                            Vamos praticar alguns conceitos?
+                        </div>
+                    </yduqs-card-horizontal>
+
+                    <yduqs-questions question_id="3"></yduqs-questions>
+                </div>
+            </yduqs-section>
+            <!-- Fim do Questions -->
+
+            <yduqs-section>
+                <yduqs-module-rating cta="Avalie o módulo" icon="star" tamanho="large" dev="false"></yduqs-module-rating>
+            </yduqs-section>
+
+        </module>
+
+        <module id="conclusao">
+            <!-- Considerações Finais -->
+            <div class="container my-5">
+                <div class='row align-items-center justify-content-center'>
+                    <yduqs-title topic_title="Considerações finais"></yduqs-title>
+                    <div class='col-12 col-md-10 col-lg-8'>
+                        <p class="c-paragraph u-text--medium">Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.</p>
+                        <p class="c-paragraph u-text--medium">Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.</p>
+                        <p class="c-paragraph u-text--medium">Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.</p>
+                        <p class="c-paragraph u-text--medium">Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Considerações Finais -->
+
+            <!-- Podcast -->
+            <section class="w-100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 my-2">                        
+                            <yduqs-card dark="false" outlined="false">
+                                <yduqs-card-header>
+                                    <yduqs-title topic_icon="headset" dark="false" topic_title="Podcast"></yduqs-title>
+                                </yduqs-card-header>
+                                <yduqs-card-body>
+                                    <div class="row align-items-center justify-content-center">
+                                        <div class='col-12 col-md-10 col-lg-8'>                                           
+                                            <p class="c-paragraph u-text--medium">texto</p>
+                                            <yduqs-audio-player dark="false" audio_id="1" src="./podcast/.mp3"></yduqs-audio-player>
+                                        </div>    
+                                    </div>    
+                                </yduqs-card-body>
+                            </yduqs-card>
+                        </div>
+                    </div>
+                </div>                    
+            </section>                
+            <!-- Podcast --> 
+        </module>
+
+    </main>
+    <!-- Fim da main/conteúdo aula -->
+
+    <!-- Início rodapé/footer -->
+    <footer class="mt-5">
+        <yduqs-footer btnimprimir="true" hrefBtnPrint="CriaPDF()" namebtnimprimir="Baixar conteúdo">
+            <div class="c-footer-list-items" slot="itens-referencia">
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+            </div>
+
+            <div class="c-footer-list-items" slot="itens-exploremais">
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+
+                <p class="c-paragraph u-text--medium">Lorem Ipsum is simply <strong>dummy text of the printing and</strong> typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+
+                <p class="c-paragraph u-text--medium mb-4"><strong>Conheça os sites:</strong></p>
+
+                <ul class="px-3 mb-4">
+                    <li>AB2L - Associação Brasileira de Lawtechs & legalTechs</li>
+                    <li>Portal Anjos do Brasil</li>
+                </ul>
+
+                <p class="c-paragraph u-text--medium mb-4"><strong>Leia os artigos:</strong></p>
+
+                <ul class="px-3 mb-4">
+                    <li>
+                        <strong>Lorem Ipsum is</strong> simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </li>
+
+                    <li>
+                        <strong>Lorem Ipsum is</strong> simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </li>
+
+                    <li>
+                        <strong>Lorem Ipsum is</strong> simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </li>
+                </ul>
+            </div>
+        </yduqs-footer>
+    </footer>
+    <!-- fim rodapé/footer -->
+
+    <!-- Inicio do Script Google Tag Manager BODY (NÂO REMOVER) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB9FV25" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Fim do Script Google Tag Manager BODY (NÂO REMOVER) -->
+
+    <!-- Import dos componentes em @yduqs/webcomponents -->
+    <script type="module" src="https://stensineme.blob.core.windows.net/designsystem/cdn/webcomponents/web-components/web-components.esm.js"></script>
+    <script nomodule src="https://stensineme.blob.core.windows.net/designsystem/cdn/webcomponents/web-components/web-components.js"></script>
+    <!-- Import dos componentes em @yduqs/webcomponents -->
+    
+    </body>
+
+</html>

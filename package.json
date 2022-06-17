@@ -1,0 +1,12 @@
+{
+  "name": "docx-to-ds",
+  "version": "1.0.0",
+  "description": "Conversor de docx para design system (html)",
+  "main": "app.py",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "José Martins",
+  "license": "ISC",
+  "dependencies": {}
+}
